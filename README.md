@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/binhnguyen159/DevOps_Microservices_P4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/binhnguyen159/DevOps_Microservices_P4/tree/master
+
 <include a CircleCI status badge, here>
 
 ## Project Overview
@@ -48,5 +50,3 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/binhnguyen159/DevOps_Microservices_P4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/binhnguyen159/DevOps_Microservices_P4/tree/master)
