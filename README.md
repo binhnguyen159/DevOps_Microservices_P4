@@ -1,6 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/binhnguyen159/DevOps_Microservices_P4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/binhnguyen159/DevOps_Microservices_P4/tree/master
-
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/binhnguyen159/DevOps_Microservices_P4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/binhnguyen159/DevOps_Microservices_P4/tree/master)
 
 ## Project Overview
 
