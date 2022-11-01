@@ -20,6 +20,6 @@ Docker ID and Image: binhnguyen058/prediction-app:latest
 pod/prediction-app created
 NAME             READY   STATUS    RESTARTS   AGE
 prediction-app   1/1     Running   0          100s
-Forwarding from 127.0.0.1:8000 -> 8000
-Forwarding from [::1]:8000 -> 8000
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
 Handling connection for 8000

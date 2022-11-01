@@ -10,7 +10,7 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run prediction-app --image=$dockerpath --port=8000 --labels app=binhnguyen058
+kubectl run prediction-app --image=$dockerpath --port=80 --labels app=binhnguyen058
 
 
 # Step 3:
@@ -20,4 +20,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward prediction-app 8000:8000
+kubectl port-forward prediction-app 8000:80
