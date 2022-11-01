@@ -1,0 +1,25 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ minikube start
+😄  minikube v1.27.1 on Amazon 2
+✨  Using the docker driver based on existing profile
+
+  The requested memory allocation of 1954MiB does not leave room for system overhead (total system memory: 1954MiB). You may face stability issues.
+💡  Suggestion: Start minikube with less memory allocated: 'minikube start --memory=1954mb'
+
+👍  Starting control plane node minikube in cluster minikube
+🚜  Pulling base image ...
+🔄  Restarting existing docker container for "minikube" ...
+🐳  Preparing Kubernetes v1.25.2 on Docker 20.10.18 ...
+🔎  Verifying Kubernetes components...
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: storage-provisioner, default-storageclass
+🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh 
+Docker ID and Image: binhnguyen058/prediction-app:latest
+pod/prediction-app created
+NAME             READY   STATUS    RESTARTS   AGE
+prediction-app   1/1     Running   0          100s
+Forwarding from 127.0.0.1:8000 -> 8000
+Forwarding from [::1]:8000 -> 8000
+Handling connection for 8000
